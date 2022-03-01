@@ -5,9 +5,9 @@ from PIL import Image
 from skimage.color import rgb2lab, lab2rgb
 import torch
 import numpy as np
-import generator_meme
 
-token = "5016618436:AAHLdkuP94x6p1BgcibbtDWRRt_irqnbULc"
+
+token = ""
 bot = TeleBot(token, parse_mode=None)
 
 
